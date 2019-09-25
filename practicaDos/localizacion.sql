@@ -11,7 +11,7 @@ CREATE TABLE locations (
     city VARCHAR(30),
     state_province VARCHAR(15),
     country_id INTEGER,
-    create_at DATE,
-    update_at DATE
+    created_at DATE,
+    updated_at DATE
 
 );
