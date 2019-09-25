@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS departments;
 -- creo la tabla 
 CREATE TABLE departments(
     id INTEGER,
-    NAME VARCHAR(30),
+    name VARCHAR(30),
     manager_id INTEGER,
     location_id INTEGER,
     created_at DATE,
