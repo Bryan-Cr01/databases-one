@@ -1,7 +1,7 @@
 CREATE DATABASE human_resources;
 
 use  human_resources;
-select * from departments;	
+select * from employees;	
 CREATE TABLE employees(
 id INT,
 first_name VARCHAR(20),
